@@ -47,6 +47,10 @@ const fullMenus = [
       {
         title: '代码仓库',
         key: 'CodeRepository'
+      },
+      {
+        title: '源码发布',
+        key: 'Jenkins_Manager'
       }
     ]
   },
@@ -126,10 +130,6 @@ const fullMenus = [
       {
         title: '故障管理',
         key: 'Fault_Manager'
-      },
-      {
-        title: '源码发布',
-        key: 'Jenkins_Manager'
       },
       {
         title: '时间同步',
