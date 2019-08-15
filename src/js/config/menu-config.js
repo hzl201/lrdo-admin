@@ -155,6 +155,11 @@ const fullMenus = [
         key: 'Prometheus_Alert'
       }
     ]
+  },
+  {
+    title: '文档',
+    key: 'Documents',
+    icon: 'icon-monitor'
   }
   // ,
   // {

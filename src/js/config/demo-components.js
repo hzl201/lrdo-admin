@@ -119,6 +119,11 @@ export default [{
   component: (resolve) => require(['components/demo-components/monitoringalarm/prometheus_alert'], resolve),
   meta: { title: 'Prometheus' }
 }, {
+  path: '/documents',
+  name: 'Documents',
+  component: (resolve) => require(['components/demo-components/documents'], resolve),
+  meta: { title: '文档' }
+}, {
   path: '/autocomplete1',
   name: 'Autocomplete1',
   component: (resolve) => require(['components/demo-components/autocomplete1'], resolve),
