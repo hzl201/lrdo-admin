@@ -8,7 +8,7 @@
       </CollapseItem>
       <CollapseItem title=" 2.服务器IP分配表">
       <p>临矿服务器IP分配表：<a href="../Resources/projiect/网络调试/临矿集团各煤矿内网ip表.xlsx" target="_lkserverip"> 下载地址</a></p>
-      <p>临矿服务器IP分配表：<a href="../Resources/projiect/网络调试/陕煤服务器明细表.xlsx" target="_smserverip"> 下载地址</a></p>
+      <p>陕煤服务器IP分配表：<a href="../Resources/projiect/网络调试/陕煤服务器明细表.xlsx" target="_smserverip"> 下载地址</a></p>
       </CollapseItem>
     </Collapse>
   </div>

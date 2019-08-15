@@ -49,6 +49,10 @@ const fullMenus = [
         key: 'CodeRepository'
       },
       {
+        title: '代码评审',
+        key: 'CodeReview'
+      },
+      {
         title: '源码发布',
         key: 'Jenkins_Manager'
       }

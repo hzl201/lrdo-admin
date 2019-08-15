@@ -39,6 +39,16 @@ export default [{
   component: (resolve) => require(['components/demo-components/operation_center/codeRepository'], resolve),
   meta: { title: '代码仓库' }
 }, {
+  path: '/codereview',
+  name: 'CodeReview',
+  component: (resolve) => require(['components/demo-components/operation_center/codereview'], resolve),
+  meta: { title: '代码评审' }
+}, {
+  path: '/jenkins_manager',
+  name: 'Jenkins_Manager',
+  component: (resolve) => require(['components/demo-components/operation_center/jenkins_manager'], resolve),
+  meta: { title: '源码发布' }
+}, {
   path: '/commandlist',
   name: 'CommandList',
   component: (resolve) => require(['components/demo-components/task_layout/commandlist'], resolve),
@@ -93,11 +103,6 @@ export default [{
   name: 'Fault_Manager',
   component: (resolve) => require(['components/demo-components/devopstools/fault_manager'], resolve),
   meta: { title: '故障管理' }
-}, {
-  path: '/jenkins_manager',
-  name: 'Jenkins_Manager',
-  component: (resolve) => require(['components/demo-components/devopstools/jenkins_manager'], resolve),
-  meta: { title: '源码发布' }
 }, {
   path: '/timesync_manager',
   name: 'Timesync_Manager',
